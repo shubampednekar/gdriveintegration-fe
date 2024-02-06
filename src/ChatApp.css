@@ -1,0 +1,49 @@
+/* ChatApp.css */
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #065e9d; /* Grey background */
+  }
+  
+  .chat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: white; /* White background for chat box */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.899); /* Add shadow for depth */
+  }
+  
+  .robot-icon {
+    margin-bottom: 10px; /* Add some margin below the robot icon */
+  }
+  
+  .ant-input, .ant-btn {
+    color: #001eff; /* Pink text color for input and button */
+  }
+  
+  .ant-btn {
+    color : white;
+    background-color: rgb(5, 40, 239); /* Yellow background for button */
+  }
+  
+  .response-box {
+    margin-top: 20px;
+    text-align: center;
+    color : rgb(255, 255, 255);
+  }
+  
+  
+  .spin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
