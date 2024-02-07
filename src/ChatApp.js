@@ -37,6 +37,14 @@ const ChatApp = () => {
 
   return (
     <div className="chat-container">
+      <div className="header">
+        <div className="title">
+          <h1>Gdrive Ninja</h1>
+        </div>
+        <div className="credits">
+
+        </div>
+      </div>
       <div className="robot-icon">
         <img src={robotIcon} alt="Robot Icon" width={100}/>
       </div>
