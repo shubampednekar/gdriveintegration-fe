@@ -16,7 +16,7 @@ const ChatApp = () => {
   };
 
   const handleButtonClick = async () => {
-    const apiEndpoint = 'http://localhost:3000/api/gdrive/queries'; // Replace with your API endpoint
+    const apiEndpoint = 'https://gdriveintegration.onrender.com/api/gdrive/queries'; // Replace with your API endpoint
     
     try {
       setLoading(true); // Set loading state to true when API call starts
